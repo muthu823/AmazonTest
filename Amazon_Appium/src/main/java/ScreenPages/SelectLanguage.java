@@ -28,32 +28,11 @@ public class SelectLanguage extends ScreenBase
 		super(driver);
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	
-//	public void language()
-//	{
-//		//English.click();
-//		
-//	}
-	
-	//public void language(int languagecount)
-	
-	//i used methed chaining so i used return type 
-	//public LoginPage language()
+
 	public void language()
 	{
 		English.click();
-		//English.get(0).click();	
-		
-		//return new LoginPage(driver);
-		
-//		for(int i=0;i<=languagecount;i++)
-//		{
-//			if(i==0)
-//			{
-//			English.get(i).click();
-//			break;
-//			}
-//		}
+
 	}
 
 }
